@@ -1,7 +1,20 @@
 # This is Clickbait
-*Want to try this? [Install it from the Chrome Web Store]()
+*Want to try this? [Install it from the Chrome Web Store](). Special thanks to Saurabh Mathur.
 
 ![](https://i.ytimg.com/vi/pHNbitDDW3A/maxresdefault.jpg)
+
+*Clickbait: content whose main purpose is to attract attention and encourage visitors to click on a link to a particular web page.*
+
+ People continually fall for clickbait and as Wired in it's article mentioned Whether you think clickbait is on the rise, obscurant and self-negating, not such a big deal, or the root of all evil, one thing is clear about it: It’s increasingly hard to pin down. 
+
+A lot of editors use clickbait in an effort to manipulate you or grab your attention. The difference with clickbait is you’re often aware of this manipulation, and yet helpless to resist it. It’s at once obvious in its bait-iness, and somehow still effective bait.
+
+But with this small chrome extension using deep learning one can easily identify whether an article is clickbait or not on Facebook.
+
+# Why Facebook?
+
+Because I think that's where the major source of clickbait articles are posted and if you know that the article is clickbait from facebook itself then the problem is solved.
+
 
 
 # Installing this Chrome Extension
