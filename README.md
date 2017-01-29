@@ -1,5 +1,5 @@
 # This is Clickbait
-* Special thanks to Saurabh Mathur.
+* Want to try this? [Install it from the Chrome Web Store](https://chrome.google.com/webstore/detail/this-is-clickbait/ppklhdlfnadnlnllnenceabhldpnafjm) Special thanks to Saurabh Mathur.
 
 ![](https://i.ytimg.com/vi/pHNbitDDW3A/maxresdefault.jpg)
 
@@ -21,6 +21,11 @@ Because I think that's where the major source of clickbait articles are posted a
 
 # Installing this Chrome Extension
 
+Option 1: From the Chrome Web Store
+
+1. [Click here and choose "+ Add to Chrome"](https://chrome.google.com/webstore/detail/this-is-clickbait/ppklhdlfnadnlnllnenceabhldpnafjm)
+
+Option 2: From Source
 
 1. Clone this repo so you have a copy in a folder locally.
 1. Open `chrome://extensions` in the location or go to `Tools` > `Extensions`
