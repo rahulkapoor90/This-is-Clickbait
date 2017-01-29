@@ -1,0 +1,30 @@
+{
+  "name": "This is Clickbait",
+  "version": "0.0.1",
+  "author": "Rahul Kapoor",
+  "manifest_version": 2,
+  "description": "Shows whether the article title is clickbait or not on Facebook",
+  "permissions": [
+    "http://www.facebook.com/*", "https://www.facebook.com/*","https://clickbait-detector.herokuapp.com/*"
+  ],
+  "web_accessible_resources": [ "locales/*"],
+  "browser_action": {
+    "default_icon": {
+      "19": "logo16.png",
+      "38": "logo48.png"
+    }
+  },
+  "icons": {
+     "128": "logo128.png",
+     "16": "logo16.png",
+     "48": "logo48.png"
+  },
+  "content_scripts": [
+    {
+        "matches": ["http://www.facebook.com/*", "https://www.facebook.com/*"],
+        "js" : [ "facebook.js"],
+        "run_at" : "document_idle",
+        "all_frames" : false
+    }
+  ]
+}
