@@ -11,6 +11,8 @@ A lot of editors use clickbait in an effort to manipulate you or grab your atten
 
 But with this small chrome extension using deep learning one can easily identify whether an article is clickbait or not on Facebook.
 
+![](https://i.imgur.com/YdCORhy.png)
+
 # Why Facebook?
 
 Because I think that's where the major source of clickbait articles are posted and if you know that the article is clickbait from facebook itself then the problem is solved.
