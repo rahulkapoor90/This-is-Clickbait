@@ -21,7 +21,7 @@ But with this small chrome extension using deep learning one can easily identify
 
 ![](https://i.imgur.com/T9bmxE1.png)
 
-## For others, it just let's you know the % of clickbaitiness:
+## For others, it let's you know the % of clickbaitiness:
 
 ![](https://i.imgur.com/mUvJQCG.png)
 
