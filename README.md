@@ -11,7 +11,19 @@ A lot of editors use clickbait in an effort to manipulate you or grab your atten
 
 But with this small chrome extension using deep learning one can easily identify whether an article is clickbait or not on Facebook.
 
-![](https://i.imgur.com/YdCORhy.png)
+# Screenshots
+
+## If the article is "Not a Clickbait"
+
+![](https://i.imgur.com/Vse7SvM.png)
+
+## and, if it is :
+
+![](https://i.imgur.com/T9bmxE1.png)
+
+## For others, it let's you know the % of clickbaitiness:
+
+![](https://i.imgur.com/mUvJQCG.png)
 
 # Why Facebook?
 
