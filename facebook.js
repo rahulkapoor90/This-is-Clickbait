@@ -8,9 +8,9 @@ _gaq.push(['_trackPageview']);
   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
 
-const facebook_clickbait = function() {
+const facebook_clickbait = function(node) {
 
-  const images = [...document.getElementsByClassName('mbs _6m6 _2cnj _5s6c')];
+  const images = [...node.getElementsByClassName('mbs _6m6 _2cnj _5s6c')];
 
   images.forEach(function(el) {
     var links = el.getElementsByTagName('a');
@@ -47,12 +47,16 @@ var request = new XMLHttpRequest();
 
 const observer = new MutationObserver(function(mutations) {
     mutations.forEach(function(mutation) {
-        facebook_clickbait();
+        mutation.addedNodes.forEach(function(node) {
+            if (node.nodeType === 1) { // ELEMENT_NODE
+                facebook_clickbait(node);
+            }
+        });
     });
 });
 
-const config = { attributes: true, childList: true, characterData: false }
+const config = { attributes: false, childList: true, characterData: false, subtree: true }
 
 observer.observe(document.body, config);
 
-facebook_clickbait();
+facebook_clickbait(document.body);
