@@ -14,7 +14,6 @@ const youtube_clickbait = function() {
 
   images.forEach(function(el) {
     var link = el.innerHTML;
-    console.log(link);
 var request = new XMLHttpRequest();
   request.onreadystatechange = function() {
       if (request.readyState === 4) {
@@ -42,9 +41,6 @@ var request = new XMLHttpRequest();
   });
 
 };
-
-
-youtube_clickbait();
 
 const observer = new MutationObserver(function(mutations) {
     mutations.forEach(function(mutation) {

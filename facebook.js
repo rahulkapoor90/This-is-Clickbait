@@ -24,7 +24,7 @@ var request = new XMLHttpRequest();
               var data = JSON.parse(request.responseText);
               var clickbait = data.clickbaitiness;
               if(clickbait<60){
-                let html = "<ul style='position:absolute;top:30px;right:10px;padding:5px;font-size:12px;line-height:1.8;background-color:#2ecc71;color:#fff;border-radius:5px'>👍 Not a Clickbait</ul>";
+                let html = "<ul style='position:absolute;top:30px;right:10px;padding:5px;font-size:12px;line-height:1.8;background-color:#2ecc71;color:#fff;border-radius:5px'>👍 Not Clickbait</ul>";
                 el.insertAdjacentHTML('afterend', html);
               }
               else if(clickbait > 90){
@@ -44,9 +44,6 @@ var request = new XMLHttpRequest();
   });
 
 };
-
-
-facebook_clickbait();
 
 const observer = new MutationObserver(function(mutations) {
     mutations.forEach(function(mutation) {
