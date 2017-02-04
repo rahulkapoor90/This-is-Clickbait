@@ -1,6 +1,6 @@
 {
   "name": "This is Clickbait",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "author": "Rahul Kapoor",
   "manifest_version": 2,
   "description": "Shows whether the article  is clickbait or not on Facebook & YouTube",

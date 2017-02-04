@@ -8,9 +8,9 @@ _gaq.push(['_trackPageview']);
   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
 
-const youtube_clickbait = function() {
+const youtube_clickbait = function(node) {
 
-  const images = [...document.getElementsByClassName('watch-title')];
+  const images = [...node.getElementsByClassName('watch-title')];
 
   images.forEach(function(el) {
     var link = el.innerHTML;
@@ -44,12 +44,16 @@ var request = new XMLHttpRequest();
 
 const observer = new MutationObserver(function(mutations) {
     mutations.forEach(function(mutation) {
-        youtube_clickbait();
+        mutation.addedNodes.forEach(function(node) {
+            if (node.nodeType === 1) { // ELEMENT_NODE
+                youtube_clickbait(node);
+            }
+        });
     });
 });
 
-const config = { attributes: true, childList: true, characterData: false }
+const config = { attributes: false, childList: true, characterData: false, subtree: true }
 
 observer.observe(document.body, config);
 
-youtube_clickbait();
+youtube_clickbait(document.body);
