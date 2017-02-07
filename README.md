@@ -45,3 +45,8 @@ Option 2: From Source
 1. Click on the button labelled `Load unpacked extension...`.
 1. Select the directory where you cloned this repo to.
 1. Visit Facebook!
+
+
+# Media:
+
+[http://www.addictivetips.com/web/how-to-identify-clickbait-on-facebook/](http://www.addictivetips.com/web/how-to-identify-clickbait-on-facebook/)
