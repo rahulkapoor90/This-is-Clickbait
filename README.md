@@ -50,3 +50,7 @@ Option 2: From Source
 # Media:
 
 [http://www.addictivetips.com/web/how-to-identify-clickbait-on-facebook/](http://www.addictivetips.com/web/how-to-identify-clickbait-on-facebook/)
+
+[http://wwwhatsnew.com/2017/02/04/una-extension-para-chrome-para-saber-si-un-articulo-en-facebook-hace-uso-del-clickbait/
+](http://wwwhatsnew.com/2017/02/04/una-extension-para-chrome-para-saber-si-un-articulo-en-facebook-hace-uso-del-clickbait/
+)
