@@ -54,6 +54,7 @@ Option 2: From Source
 [http://wwwhatsnew.com/2017/02/04/una-extension-para-chrome-para-saber-si-un-articulo-en-facebook-hace-uso-del-clickbait/
 ](http://wwwhatsnew.com/2017/02/04/una-extension-para-chrome-para-saber-si-un-articulo-en-facebook-hace-uso-del-clickbait/
 )
+
 [Product Hunt - https://www.producthunt.com/posts/this-is-clickbait/](https://www.producthunt.com/posts/this-is-clickbait/)
 
 [Reddit /r/india - https://www.reddit.com/r/india/comments/5r637u/i_made_a_chrome_extension_which_detects/](https://www.reddit.com/r/india/comments/5r637u/i_made_a_chrome_extension_which_detects/)
