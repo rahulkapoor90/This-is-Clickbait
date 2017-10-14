@@ -5,34 +5,33 @@
   "manifest_version": 2,
   "description": "Shows whether the article  is clickbait or not on Facebook & YouTube",
   "permissions": [
-    "http://www.facebook.com/*", "https://www.facebook.com/*","https://clickbait-detector.herokuapp.com/*"
+    "http://www.facebook.com/*", "https://www.facebook.com/*", "https://clickbait-detector.herokuapp.com/*"
   ],
-  "web_accessible_resources": [ "locales/*"],
+  "web_accessible_resources": ["locales/*"],
   "browser_action": {
     "default_icon": {
-      "19": "logo16.png",
-      "38": "logo48.png"
+      "19": "media/logo16.png",
+      "38": "media/logo48.png"
     }
   },
   "icons": {
-     "128": "logo128.png",
-     "16": "logo16.png",
-     "48": "logo48.png"
+    "128": "media/logo128.png",
+    "16": "media/logo16.png",
+    "48": "media/logo48.png"
   },
   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
   "homepage_url": "https://github.com/rahulkapoor90/This-is-Clickbait",
-  "content_scripts": [
-    {
-        "matches": ["http://www.facebook.com/*", "https://www.facebook.com/*"],
-        "js" : [ "facebook.js"],
-        "run_at" : "document_idle",
-        "all_frames" : false
+  "content_scripts": [{
+      "matches": ["http://www.facebook.com/*", "https://www.facebook.com/*"],
+      "js": ["src/facebook.js"],
+      "run_at": "document_idle",
+      "all_frames": false
     },
     {
-        "matches": ["http://www.youtube.com/*", "https://www.youtube.com/*"],
-        "js" : [ "youtube.js"],
-        "run_at" : "document_idle",
-        "all_frames" : false
+      "matches": ["http://www.youtube.com/*", "https://www.youtube.com/*"],
+      "js": ["src/youtube.js"],
+      "run_at": "document_idle",
+      "all_frames": false
     }
   ]
 }
